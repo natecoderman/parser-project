@@ -92,7 +92,8 @@ let usage_msg = Sys.executable_name ^ " [--printback <filename>]"
    Note that "Arg.String" takes a function of type: string -> unit.
    This is where we plug in the 'with_file' function we wrote above. *)
 let speclist =
-  [("--printback", Arg.String (with_file print_all), "Print the parsed file back out")]
+  [("--printback", Arg.String (with_file print_all), "Print the parsed file back out")
+  ;("--simple", Arg.String (with_file Procaml.prover_main), "Parse the file, but don't print anything")]
 
 let _ = Arg.parse
            speclist
