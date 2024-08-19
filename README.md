@@ -1,7 +1,7 @@
 # Simple Function Prover
 
 ### Credits
-This code was written by Nathaniel Grenke and Greta Brown as a school project. The base code is a solution that was given after having completed that section previously. The commit is soley our work. 
+This code was written by Nathaniel Grenke and Greta Brown as part of a school project. The base code is a solution that was given after having completed that section previously. The commit is soley our work. 
 
 We've recieved instructor permission to share the code, but please do not plagurize! This code is very likey to be in plaguerism checkers.
 
