@@ -57,8 +57,9 @@ All output proofs will follow a similar ordering:
 In the case no proof is possible, the intermediate steps will simply be "???"
 
 ## Results
+Below is an example of the printback feature. As seen, all excess comments and formating are removed.
 ![pic](pics/printback.png)
 
-Here is an example of the printback feature. As seen, all excess comments and formating are removed.
+The next image shows the prover being used on moreproofs.ml. The first proof is an example of a failiure case, outputting "???". The next two proofs both go through, and output a series of steps based on previous proofs and axioms.
 
 ![pic](pics/simple.png)
