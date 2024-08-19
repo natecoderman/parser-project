@@ -57,5 +57,8 @@ All output proofs will follow a similar ordering:
 In the case no proof is possible, the intermediate steps will simply be "???"
 
 ## Results
+![pic](pics/printback.png)
 
 Here is an example of the printback feature. As seen, all excess comments and formating are removed.
+
+![pic](pics/simple.png)
