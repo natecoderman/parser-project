@@ -17,7 +17,7 @@ This project was run on:
 Installation
 1. download the "procaml" folder
 2. Launch command terminal and navigate to procaml directory
-3. Input "dune build"
+3. Type "dune build"
 
 And that's it! The program can now be run with
 ```
@@ -33,10 +33,10 @@ The flename is the input of statements to be proven. A few example input files h
 
 ## Syntax 
 All statements follow a similar ordering:
-1. Start with "let (*prove*)" and the naming of the proof
+1. Start with "let (\*prove\*)" and the naming of the proof
 2. list any variables and their types, followed by "="
 3. in parentheses, provide an equivilency to be proven
-4. The proof can be followed by "(*hint: axiom *)", meaning the equivalency should be accepted as true and used in future proofs
+4. The proof can be followed by "(\*hint: axiom \*)", meaning the equivalency should be accepted as true and used in future proofs
 
 The equivelency should have a left and right side, seperated by "="
 
